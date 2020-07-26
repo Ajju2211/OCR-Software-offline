@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PIC2TEXT</class>
+ <widget class="QMainWindow" name="PIC2TEXT">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1471</width>
+    <height>697</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>240</red>
+        <green>19</green>
+        <blue>49</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="128">
+        <red>41</red>
+        <green>44</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>240</red>
+        <green>19</green>
+        <blue>49</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="128">
+        <red>41</red>
+        <green>44</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="Button">
+      <brush brushstyle="SolidPattern">
+       <color alpha="255">
+        <red>240</red>
+        <green>19</green>
+        <blue>49</blue>
+       </color>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="SolidPattern">
+       <color alpha="128">
+        <red>41</red>
+        <green>44</green>
+        <blue>255</blue>
+       </color>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="windowTitle">
+   <string>PIC2TEXT</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>ICONS/LOGO.png</normaloff>ICONS/LOGO.png</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>9.000000000000000</double>
+  </property>
+  <property name="toolTip">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="downloadB">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>590</y>
+      <width>241</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Midlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>22</red>
+          <green>22</green>
+          <blue>227</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Midlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>227</red>
+          <green>227</green>
+          <blue>227</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Midlight">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>247</red>
+          <green>247</green>
+          <blue>247</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <family>Franklin Gothic Demi</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;click to convert &lt;/p&gt;&lt;p&gt;file to text&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>ICONS/DOWNLOAD.png</normaloff>ICONS/DOWNLOAD.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>201</width>
+      <height>80</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>1331</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhMultiLine</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="message">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>620</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poor Richard</family>
+      <pointsize>24</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Loading......</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
